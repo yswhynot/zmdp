@@ -27,7 +27,7 @@ CFLAGS += -DZMDP_VERSION=1.1.7
 # debug/optimization options
 
 USER_CFLAGS := -O3
-#USER_CFLAGS := -g
+USER_CFLAGS := -g
 
 XCFLAGS := $(CFLAGS)
 CFLAGS += -DCFLAGS="\"$(XCFLAGS)\""
